@@ -1,0 +1,19 @@
+theme = ""
+
+# Default volume in dB (range: -30 to 6)
+volume = -8
+
+# Repeat mode: "off", "all", or "one"
+repeat = "all"
+
+# Start with shuffle enabled
+shuffle = true
+
+# Visualizer mode (leave empty for default Bars)
+# Options: Bars, BarsDot, Rain, BarsOutline, Bricks, Columns, ClassicPeak, Wave, Scatter, Flame, Retro, Pulse, Matrix, Binary, Sakura, Firework, Bubbles, Logo, Terrain, Scope, Heartbeat, Butterfly, Ascii, Firefly, Mosaic, Sand, None
+visualizer = "ClassicPeak"
+
+[spotify]
+client_id = "$SPOTIFY_CLIENT_ID"
+bitrate   = 320
+
