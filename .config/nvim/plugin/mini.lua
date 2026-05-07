@@ -9,9 +9,7 @@ require('mini.files').setup({
 
 require('mini.pick').setup()
 
-require('mini.icons').setup({
-    style = 'ascii'
-})
+require('mini.icons').setup()
 
 require('mini.move').setup()
 require('mini.animate').setup()
