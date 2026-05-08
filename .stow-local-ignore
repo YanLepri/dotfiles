@@ -21,3 +21,7 @@ _darcs
 ^/COPYING
 
 .cfgsync
+.pkgsync
+
+.pkgs
+.aurpkgs

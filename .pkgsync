@@ -1,0 +1,9 @@
+#!/bin/bash
+
+pacman -Qqem > .aurpkgs
+
+pacman -Qqen > .pkgs
+
+sudo pacman -S --needed - < .pkgs
+
+yay -S --needed - < .aurpkgs
