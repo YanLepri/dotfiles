@@ -32,3 +32,4 @@ opt.undodir = vim.fn.stdpath('data') .. '/undo'
 opt.updatetime = 300
 opt.autoread = true
 opt.autowrite = true
+opt.clipboard = "unnamedplus"
