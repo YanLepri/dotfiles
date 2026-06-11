@@ -33,3 +33,6 @@ opt.updatetime = 300
 opt.autoread = true
 opt.autowrite = true
 opt.clipboard = "unnamedplus"
+
+vim.o.completeopt = "menuone,noselect,fuzzy"
+vim.o.autocomplete = true
