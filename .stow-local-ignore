@@ -20,8 +20,12 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
+.aursetup
 .cfgsync
 .pkgsync
 
 .pkgs
 .aurpkgs
+.pkgsinstall
+
+.bashenv.example
