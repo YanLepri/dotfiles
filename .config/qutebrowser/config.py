@@ -1,3 +1,5 @@
+import os
+
 config.load_autoconfig()
 
 c.auto_save.session = True
@@ -17,3 +19,9 @@ c.url.searchengines = {
 }
 
 config.source('gruvbox.py')
+
+# KeePassXC
+gpg_key = os.getenv("GPG_KEY")
+config.bind('<Alt-Shift-u>', f'spawn --userscript qute-keepassxc --key {gpg_key}', mode='insert')
+config.bind('pw', f'spawn --userscript qute-keepassxc --key {gpg_key}', mode='normal')
+config.bind('pt', f'spawn --userscript qute-keepassxc --key {gpg_key} --totp', mode='normal')
